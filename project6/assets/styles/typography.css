@@ -1,0 +1,11 @@
+.heading {
+  color: #f22;
+  /* margin-top: 100px; */
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 60px;
+}
+
+/* h1:hover {
+  color: #080
+} */
