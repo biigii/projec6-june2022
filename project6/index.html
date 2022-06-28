@@ -10,14 +10,50 @@
     </head>
     <body>
         <header>
-          <nav class="nav">
-            <a class="nav-link" href="./index.html">home</a>
-            <a class="nav-link" href="./about.html">about</a>
-            <a class="nav-link" href="./contact.html">contact</a>
-          </nav>
+            <nav class="nav">
+                <a class="nav-link" href="./index.html">home</a>
+                <a class="nav-link" href="./about.html">about</a>
+                <a class="nav-link" href="./contact.html">contact</a>
+            </nav>
         </header>
         <h1 class="heading">homepage</h1>
-        <main>
+        <main class="container">
+            <div class="row">
+                <div class="col col-6 headline">
+                    <img src="https://picsum.photos/id/1050/800/400" />
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet error, nam vitae tempora adipisci, quia sequi officia, rem cumque aliquam illum impedit facilis corporis neque beatae quasi voluptatem similique?</p>
+                    <button>Lorem, ipsum.</button>
+                </div>
+                <div class="col col-6 headline">
+                    <img src="https://picsum.photos/id/1051/800/400" />
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet error, nam vitae tempora adipisci, quia sequi officia, rem cumque aliquam illum impedit facilis corporis neque beatae quasi voluptatem similique?</p>
+                    <button>Lorem, ipsum.</button>
+                </div>
+            </div>
+
+            <!-- block element modifier  B.E.M -->
+            <div class="row">
+                <div class="col col-4 news">
+                    <img class="news__image" src="https://picsum.photos/id/1063/800/400" />
+                    <h3 class="news__heading">Lorem, ipsum.</h3>
+                    <p class="news__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio nemo quisquam dolor neque est sint! Fugit, assumenda earum distinctio fugiat eos alias magni sequi et ullam quas, iusto quasi facere.</p>
+                    <button class="news__button news__button--danger">Lorem, ipsum.</button>
+                </div>
+                <div class="col col-4 news">
+                    <img class="news__image" src="https://picsum.photos/id/1067/800/400" />
+                    <h3 class="news__heading">Lorem, ipsum.</h3>
+                    <p class="news__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio nemo quisquam dolor neque est sint! Fugit, assumenda earum distinctio fugiat eos alias magni sequi et ullam quas, iusto quasi facere.</p>
+                    <button class="news__button news__button--warning">Lorem, ipsum.</button>
+                </div>
+                <div class="col col-4 news">
+                    <img class="news__image" src="https://picsum.photos/id/1061/800/400" />
+                    <h3 class="news__heading">Lorem, ipsum.</h3>
+                    <p class="news__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio nemo quisquam dolor neque est sint! Fugit, assumenda earum distinctio fugiat eos alias magni sequi et ullam quas, iusto quasi facere.</p>
+                    <button class="news__button news__button--info">Lorem, ipsum.</button>
+                </div>
+            </div>
         </main>
         <footer class="footer"></footer>
     </body>
